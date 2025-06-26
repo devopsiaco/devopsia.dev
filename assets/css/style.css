@@ -1,8 +1,10 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Fira Sans", Arial, sans-serif;
   margin: 0;
   padding: 0;
-  color: #333;
+  color: #e0e0e0;
+  background: #121212;
+  line-height: 1.6;
 }
 
 .site-header {
@@ -26,7 +28,7 @@ body {
 }
 
 .site-nav a {
-  color: #fff;
+  color: #9ddcff;
   margin-left: 1rem;
   text-decoration: none;
 }
@@ -39,7 +41,7 @@ body {
 
 .post-meta {
   font-size: 0.9rem;
-  color: #666;
+  color: #a0a0a0;
 }
 
 .pagination {
@@ -49,7 +51,8 @@ body {
 }
 
 .site-footer {
-  background: #f4f4f4;
+  background: #1e1e1e;
+  color: #e0e0e0;
   text-align: center;
   padding: 1rem;
   margin-top: 2rem;

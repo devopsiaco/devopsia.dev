@@ -1,0 +1,29 @@
+# Jekyll configuration for the tech blog
+
+# Site settings
+title: DevOpsia Tech Blog
+description: "A blog about technology and software engineering."
+url: "" # Set to your GitHub Pages URL
+baseurl: "" # Subpath if needed
+
+# Build settings
+permalink: /:categories/:title/
+highlight:
+  style: monokai
+markdown: kramdown
+
+# Pagination
+paginate: 5
+paginate_path: "/page:num/"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Collections
+# default posts collection is enabled
+
+# Excerpts for index
+show_excerpts: true

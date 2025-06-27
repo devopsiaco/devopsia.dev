@@ -12,7 +12,14 @@
 <body>
   {% include header.html %}
   <main class="container">
-    {{ content }}
+    <div class="layout">
+      <aside class="sidebar">
+        {% include sidebar.html %}
+      </aside>
+      <div class="content">
+        {{ content }}
+      </div>
+    </div>
   </main>
   {% include footer.html %}
 </body>

@@ -5,4 +5,4 @@ title: Contact
 
 # Contact
 
-You can reach us at [email@example.com](mailto:email@example.com).
+You can reach us at [hello@devopsia.dev](mailto:hello@devopsia.dev).
